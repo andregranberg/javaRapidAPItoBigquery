@@ -1,6 +1,6 @@
 # javaRapidAPItoBigquery
 
-### PREPARATIONS ###
+### Preparations ###
 
 Step 1 - Create a Cloud Project on GCP
 
@@ -14,7 +14,7 @@ Step 5 - Update and install gcloud components: (using command below in bash)
 gcloud components update
 
 
-### CREATE A PROJECT ###
+### Create a project ###
 
 Step 1 - Create a directory on your local system for the function code:
 mkdir ~/helloworld
@@ -36,7 +36,7 @@ See pom.xml in this repo
 
 
 
-### DEPLOY HelloWorld.java FROM LOCAL MACHINE TO GCP ### 
+### Deploy HelloWorld.java from local machine to GCP ### 
 
 Step 1 - Compile (command below in bash)
 mvn compile
