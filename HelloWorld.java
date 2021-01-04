@@ -47,7 +47,7 @@ public class HelloWorld implements HttpFunction {
   public void service(HttpRequest request, HttpResponse response) throws Exception {
     java.net.http.HttpRequest APIrequest = java.net.http.HttpRequest.newBuilder()
 		.uri(URI.create("https://alpha-vantage.p.rapidapi.com/query?function=GLOBAL_QUOTE&symbol=TSLA"))
-		.header("x-rapidapi-key", "65c02a4672mshf6ff63121b66145p1777adjsn6a125a20822d")
+		.header("x-rapidapi-key", "key_goes_here")
 		.header("x-rapidapi-host", "alpha-vantage.p.rapidapi.com")
 		.method("GET", java.net.http.HttpRequest.BodyPublishers.noBody())
 		.build();
