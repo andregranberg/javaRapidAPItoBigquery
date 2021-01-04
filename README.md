@@ -2,7 +2,7 @@
 
 ### PREPARATIONS ###
 
-# Step 1 - Create a Cloud Project on GCP
+Step 1 - Create a Cloud Project on GCP
 
 # Step 2 - Make sure that billing is enabled for your Cloud project
 
